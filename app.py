@@ -4,16 +4,6 @@ import pickle
 import numpy as np
 import pandas as pd
 
-# Loading the saved model 
-# def predict_model(x):
-#     with open(r"C:\Users\barathy\rfr.pkl", 'rb') as f:
-#         model = pickle.load(f)
-
-#         return model
-#     predict=predict_model
-
-
-
 # page configurations
 
 st.set_page_config(
