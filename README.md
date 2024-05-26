@@ -4,10 +4,7 @@
 
 **Domain** : Real Estate
 
-### Link1 : <a href="https://www.linkedin.com/posts/activity-7130280626942861312-SkRV?utm_source=share&utm_medium=member_desktop">LinkedIn Post / Working Model Video</a>
 
-### Link2 : <a href="https://singapore-resale-flat-prices-prediction-819q.onrender.com">Singapore Resale Flat Price Prediction Streamlit Application</a>
-<br/>
 
 ## Prerequisites
 1. **Python** -- Programming Language
@@ -23,7 +20,7 @@
 
 ## Project Workflow
 The following is a fundamental outline of the project:
-  - The Resale Flat Prices dataset has five distinct CSV files, each representing a specific time period. These time periods are 1990 to 1999, 2000 to 2012, 2012 to 2014, 2015 to 2016, and 2017 onwards. Therefore, it is essential to merge the five distinct CSV files into a unified dataset.
+  - The Resale Flat Prices dataset has five distinct CSV files, each representing a specific time period. These time periods are 1990 to 1999, 2000 to 2012, 2012 to 2014, 2015 to 2016,2017 upto 2023. Therefore, it is essential to merge the five distinct CSV files into a unified dataset.
     
   - The data will be converted into a format that is appropriate for analysis, and any required cleaning and pre-processing procedures will be carried out. Relevant features from the dataset, including town, flat type, storey range, floor area, flat model, and lease commence date will be extracted. Any additional features that may enhance prediction accuracy will also be created.
     
@@ -41,10 +38,11 @@ The following is a fundamental outline of the project:
 To predict the resale price of a Singapore Flats, follow these steps:
 1. Select the **"Predictions"** option menu.
 2. Fill in the following required information:
-   - Street Name
-   - Block Number
+   - Town
+   - Flat Type
+   - Flat Model
    - Floor Area (Per Square Meter)
-   - Lease Commence Date
+   - Built Year
    - Storey Range
 3. Click the **"PREDICT RESALE PRICE"** button.
 4. The app will display the predicted resale price based on the provided information.
